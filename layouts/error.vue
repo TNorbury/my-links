@@ -33,6 +33,10 @@ export default {
     return {
       title
     }
+  },
+  // just navigate back to home page
+  mounted() {
+    this.$router.replace("/")
   }
 }
 </script>
