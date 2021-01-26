@@ -13,22 +13,22 @@
             {{ website }}
           </a>
         </div>
-    </v-col>
-  </v-row>
+      </v-col>
+    </v-row>
     <link-list />
+    <socials />
   </v-container>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-// import { Component, Vue } from 'nuxt-property-decorator'
 import LinkList from "~/components/LinkList.vue";
-// import { Link } from "~/store/links";
-// import { getters, RootState } from '~/store'
+import Socials from "~/components/Socials.vue";
 
 export default Vue.extend({
   components: {
     LinkList,
+    Socials,
   },
   data() {
     return {
