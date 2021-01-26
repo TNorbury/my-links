@@ -4,8 +4,9 @@
       <v-col
         v-for="social in socials"
         :key="social.url"
-        cols="1"
+        cols="12"
         md="1"
+        xs="6"
         align-self="center"
       >
         <v-btn height="50px" width="50px" color="transparent" elevation="0">
