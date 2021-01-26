@@ -27,7 +27,7 @@ export default class LinkList extends Vue {
   links: Link[] = [
     {
       url: "https://photography.tylernorbury.com",
-      label: "Photography Site"
+      label: "Photography Site",
     },
     {
       url: "https://www.music-note.app/",

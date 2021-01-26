@@ -44,9 +44,12 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 a {
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75) !important;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>

@@ -15,12 +15,12 @@
   </v-footer>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 * {
   text-align: center;
 }
 a {
-  color: black;
+  color: rgba(0, 0, 0, 0.75) !important;
   text-decoration: none;
 }
 a:hover {
