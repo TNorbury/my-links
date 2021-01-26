@@ -1,20 +1,17 @@
 # my-links
 
-## Build Setup
+A copy-cat version of LinkTree, built using [NuxtJS](https://nuxtjs.org). Styled with [Vuetify](https://vuetifyjs.com/en/).
 
+Feel free to make a fork and replace a create your own collection of links.
+
+## Dev setup
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+yarn dev
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Create build and run
+```bash
+npm run generate
+npm run start
+```
