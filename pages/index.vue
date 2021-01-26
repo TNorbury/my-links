@@ -15,6 +15,7 @@
         </div>
     </v-col>
   </v-row>
+    <link-list />
   </v-container>
 </template>
 
