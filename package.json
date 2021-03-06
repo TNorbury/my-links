@@ -14,13 +14,16 @@
     "@nuxt/typescript-runtime": "^2.0.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.0",
+    "@nuxt/typescript-runtime": "^2.0.2",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.2",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",
     "vuex-module-decorators": "^1.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.0",
-    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxt/typescript-build": "^2.0.6",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/vuetify": "^1.11.3",
