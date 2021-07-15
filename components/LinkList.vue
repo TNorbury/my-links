@@ -26,6 +26,10 @@ import { Link } from "~/types/link";
 export default class LinkList extends Vue {
   links: Link[] = [
     {
+      url: "https://tnorbury.darkroom.tech/",
+      label: "Print Store",
+    },
+    {
       url: "https://photography.tylernorbury.com",
       label: "Photography Site",
     },
