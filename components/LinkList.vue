@@ -26,6 +26,10 @@ import { Link } from "~/types/link";
 export default class LinkList extends Vue {
   links: Link[] = [
     {
+      url: "http://bikeway-characters.tylernorbury.com/",
+      label: "Bikeway Character Map",
+    },
+    {
       url: "https://tnorbury.darkroom.tech/",
       label: "Print Store",
     },
@@ -38,8 +42,7 @@ export default class LinkList extends Vue {
       label: "Music Note",
     },
     {
-      url:
-        "https://levelup.gitconnected.com/receiving-shared-data-in-flutter-using-android-send-intents-and-ios-share-extensions-b6a2a3fdf998",
+      url: "https://levelup.gitconnected.com/receiving-shared-data-in-flutter-using-android-send-intents-and-ios-share-extensions-b6a2a3fdf998",
       label: "Receiving shared data in Flutter | Medium",
     },
   ];
